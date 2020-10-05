@@ -2,8 +2,8 @@
 # wm independent hotkeys
 #
 
-super + s
-    i3lock-fancy
+#super + s
+    #i3lock-fancy
 # terminal emulator
 super + Return
     alacritty	
@@ -77,7 +77,7 @@ super + {comma,period}
 	bspc node -f {prev,next}.local.window
 # focus the next/previous node in the current desktop
 super + {_,shift + }c
-	bspc node -f {next,prev}.local
+	bspc node -f {next,prev}.local.window
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
